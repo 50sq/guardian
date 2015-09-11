@@ -1,0 +1,46 @@
+{
+    "name": "50sq/guardian",
+    "description": "Laravel 5.1 ACL DB layer",
+    "keywords": [
+        "laravel",
+        "acl",
+        "guardian"
+    ],
+    "homepage": "https://github.com/50sq/guardian",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "50sq",
+            "homepage": "50sq.com"
+        }
+    ],
+    "require": {
+        "php" : ">=5.5.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*",
+        "scrutinizer/ocular": "~1.1"
+    },
+    "autoload": {
+        "classmap": [
+            "database/migrations",
+            "database/seeders"
+        ],
+        "psr-4": {
+            "50sq\\Guardian\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "50sq\\Guardian\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
