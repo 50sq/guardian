@@ -1,5 +1,5 @@
 {
-    "name": "50sq/guardian",
+    "name": "FiftySq/guardian",
     "description": "Laravel 5.1 ACL DB layer",
     "keywords": [
         "laravel",
@@ -27,12 +27,12 @@
             "database/seeders"
         ],
         "psr-4": {
-            "50sq\\Guardian\\": "src"
+            "FiftySq\\Guardian\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "50sq\\Guardian\\Test\\": "tests"
+            "FiftySq\\Guardian\\Test\\": "tests"
         }
     },
     "scripts": {
